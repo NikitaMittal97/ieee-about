@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
+}
+
+span:before {
+    content: 'FORCE';
+    animation: animate infinite 8s;
+}
+
+@keyframes animate {
+    0%
+    {
+        content: 'FORCE'; 
+    }
+    25%
+    {
+        content: 'TEAM'; 
+    }
+    50%
+    {
+        content: 'CREW'; 
+    }
+    75%
+    {
+        content: 'PLATOON'; 
+    }
+    100%
+    {
+        content: 'STRING'; 
+    }
+}
+
+#heading-line {
+    width: 60%;
+    height: 3px;
+    margin-right: auto;
+    margin-left: 0;
+    color: rgb(245, 230, 24);
+    background-color: rgb(245, 230, 24);
+    border: 0 none;
+    margin-top: 0;
+}
+
+#heading-line1 {
+    height: 4px;
+    margin-right: auto;
+    margin-left: 0;
+    margin-bottom: 2px;
+    color: rgb(75, 224, 230);
+    background-color: rgb(75, 224, 230);
+    border: 0 none;
+
+}
+
+#heading-text {
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.line {
+    clear: both;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inside-header  {
+    margin-right: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(245, 230, 24);
+}
+
+
+.inside-text {
+    margin-right: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
